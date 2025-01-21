@@ -1,11 +1,13 @@
 import Counter from "./components/Counter";
+import Meals from "./components/Meals";
 import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
     <div>
-      <Counter />
-      <TodoList/>
+      {/* <Counter />
+      <TodoList/> */}
+      <Meals/>
     </div>
   );
 };
