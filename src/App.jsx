@@ -1,3 +1,4 @@
+import Calculator from "./components/Calculator";
 import Counter from "./components/Counter";
 import Meals from "./components/Meals";
 import TodoList from "./components/TodoList";
@@ -7,7 +8,8 @@ const App = () => {
     <div>
       {/* <Counter />
       <TodoList/> */}
-      <Meals/>
+      {/* <Meals/> */}
+      <Calculator />
     </div>
   );
 };
